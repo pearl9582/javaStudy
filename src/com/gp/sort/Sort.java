@@ -6,9 +6,9 @@ public class Sort {
         nums[a] = nums[b];
         nums[b] = tmp;
     }
-    static void printNums(int[] nums){
-        for(int i = 0;i<nums.length;i++){
-            System.out.print(nums[i]+" ");
+    private static void printNums(int[] nums){
+        for(int num : nums ){
+            System.out.print(num+" ");
         }
         System.out.println();
     }
