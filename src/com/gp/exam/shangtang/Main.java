@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @Author: pearl
  * @DATE: 2019/9/21 18:57
- * @Description:
+ * @Description:  从n*m的网格的左上角走到右下角，有多少种方法
  */
 public class Main {
     public static void main(String[] args){

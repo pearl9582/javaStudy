@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @Author: pearl
  * @DATE: 2019/9/21 19:40
- * @Description:
+ * @Description:  输入一个循环队列，找到最大连续子数组的和
  */
 public class Main2 {
     public static void main(String[] args){
