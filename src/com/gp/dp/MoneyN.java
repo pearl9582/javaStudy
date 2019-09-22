@@ -16,10 +16,11 @@ public class MoneyN {
         System.out.println("执行时间：" + (endTime - startTime) + "ms");
     }
 
+    //必须包含 1分面值的硬币
     private static void func2() {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int[] coins = {5, 10, 25};
+        int[] coins = {1, 5, 10, 25};
         int numsC = coins.length;
         int[][] ways = new int[numsC][n + 1];
         for (int i = 0; i < numsC; i++)
@@ -27,7 +28,7 @@ public class MoneyN {
         for (int j = 1; j <= n; j++)
             ways[0][j] = 1; //第0列初始化为1
         for (int i = 1; i < numsC; i++) {
-            for (int j = 1; j <= n; j++) {
+            for (int j = coins[0]; j <= n; j++) {
                 if (j >= coins[i])
                     ways[i][j] = ways[i - 1][j] + ways[i][j - coins[i]];
                 else

@@ -7,6 +7,7 @@ import java.util.Scanner;
  * @Description:  从n*m的网格的左上角走到右下角，有多少种方法
  * @Date 2019/9/22上午 10:09
  */
+
 public class GridWalk {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
