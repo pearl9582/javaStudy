@@ -1,2 +1,8 @@
 /out
 /target
+
+### Itellij IDEA
+.idea
+*.iws
+*.iml
+*.ipr
