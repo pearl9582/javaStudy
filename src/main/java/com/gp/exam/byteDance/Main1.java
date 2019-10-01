@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @Author: pearl
  * @DATE: 2019/9/29 21:23
- * @Description:
+ * @Description:   同main
  */
 public class Main1 {
     public static void main(String[] args){

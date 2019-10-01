@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @Author: pearl
  * @DATE: 2019/9/29 20:25
- * @Description:
+ * @Description:  逆循环打印矩阵
  */
 public class Main3 {
     public static void main(String[] args){

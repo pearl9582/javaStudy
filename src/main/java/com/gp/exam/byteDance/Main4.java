@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @Author: pearl
  * @DATE: 2019/9/29 21:16
- * @Description:
+ * @Description: 小于n的质数数量
  */
 public class Main4 {
     public static void main(String[] args){

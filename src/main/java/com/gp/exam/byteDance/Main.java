@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * @Author: pearl
  * @DATE: 2019/9/29 19:50
- * @Description:
+ * @Description:  三个int64， abc，判断 a-b>c是否正确
  */
 public class Main {
     public static void main(String[] args){
