@@ -46,7 +46,7 @@ public class TestReflect {
     }
     static void getPrivateFun(){
         Student student = new Student("pearl", 24, 0.0);
-        
+
     }
 
     static void createObjByReflect() throws ClassNotFoundException {
