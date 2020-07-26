@@ -12,7 +12,7 @@ public class Sort {
         }
         System.out.println();
     }
-    //插入排序
+    //插入排序。
     static void insertSort(int[] nums) {
         int len = nums.length;
         for (int i = 1; i < len; i++) {
